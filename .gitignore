@@ -1,0 +1,37 @@
+# Environment variables and API keys
+.env
+*.env
+!.env.example
+
+# Python cache and byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit local settings
+.streamlit/secrets.toml
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Exported files
+*.pdf
+*.txt
+!requirements.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
